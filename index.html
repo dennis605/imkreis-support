@@ -3,21 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ImKreis – Support</title>
+<meta name="description" content="ImKreis hilft dir, Beziehungen bewusst und zuverlässig zu pflegen. Kontakte, Rhythmen, Erinnerungen und Notizen – privat auf deinem Gerät.">
+<title>ImKreis – Beziehungen, die dir wichtig sind</title>
 <style>
-:root{color-scheme:light dark}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:720px;margin:0 auto;padding:48px 24px;line-height:1.6;color:#1f2933;background:#fff}main{background:#f7faf8;border-radius:24px;padding:32px}h1{margin-top:0;color:#2f6f50}h2{margin-top:32px;color:#2f6f50}a{color:#2f6f50}@media(prefers-color-scheme:dark){body{color:#eef2ef;background:#111}main{background:#1b2420}h1,h2,a{color:#8bc99b}}
+:root{color-scheme:light;--ink:#17352a;--muted:#5e7168;--green:#2f7655;--green-dark:#1f5c40;--mint:#e9f4ed;--cream:#fbfaf6;--line:#dce8df;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit}.wrap{max-width:1060px;margin:auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-weight:700}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:1.15rem}.mark{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--green);color:#fff;font-size:1.1rem}
+.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.95rem}.navlinks a{text-decoration:none}
+.hero{padding:72px 0 88px;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}
+.eyebrow{color:var(--green);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.8rem,6vw,5.5rem);line-height:1.02;letter-spacing:-.055em;margin:16px 0 24px;max-width:700px}
+.lede{font-size:1.25rem;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button{display:inline-block;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:800;border:1px solid var(--green)}.primary{background:var(--green);color:#fff}.secondary{color:var(--green);background:transparent}
+.hero-card{background:var(--mint);border:1px solid var(--line);border-radius:32px;padding:28px;box-shadow:0 18px 50px #2f76551a}.hero-card h2{font-size:1.5rem;margin:0 0 20px}.today{background:#fff;border-radius:20px;padding:18px;margin:12px 0;border:1px solid var(--line)}.today strong{display:block}.pill{display:inline-block;color:var(--green-dark);background:#d9efdf;border-radius:99px;padding:3px 9px;font-size:.78rem;font-weight:700;margin-top:8px}
+section{padding:86px 0;border-top:1px solid var(--line)}.section-intro{max-width:650px;margin-bottom:34px}.section-intro h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;letter-spacing:-.035em;margin:8px 0 14px}.section-intro p{color:var(--muted);font-size:1.1rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:24px}.card .icon{font-size:1.7rem}.card h3{margin:14px 0 8px;font-size:1.1rem}.card p{margin:0;color:var(--muted)}
+.workflow{display:grid;grid-template-columns:repeat(3,1fr);gap:0}.step{padding:24px;border-top:3px solid var(--green)}.step b{display:block;color:var(--green);font-size:.85rem;letter-spacing:.08em}.step h3{margin:10px 0 8px}.step p{color:var(--muted);margin:0}
+.privacy{background:var(--ink);color:#f2f8f3;border-radius:28px;padding:36px}.privacy p{color:#c6d9cc;max-width:760px}.privacy strong{color:#fff}
+footer{padding:34px 0 52px;color:var(--muted);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer a{color:var(--green);font-weight:700}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:48px 0 64px;gap:36px}.grid,.workflow{grid-template-columns:1fr}.navlinks{gap:12px;font-size:.85rem}.navlinks a:first-child{display:none}section{padding:64px 0}}
 </style>
 </head>
 <body>
+<div class="wrap">
+<nav><a class="brand" href="#"><span class="mark">↗</span> ImKreis</a><div class="navlinks"><a href="#funktionen">Funktionen</a><a href="#datenschutz">Datenschutz</a><a href="#support">Support</a></div></nav>
 <main>
-<h1>ImKreis Support</h1>
-<p>ImKreis hilft dir, mit den Menschen in deinem Leben in Kontakt zu bleiben – sanft, persönlich und ohne schlechtes Gewissen.</p>
-<h2>Support</h2>
-<p>Für Fragen, Fehlerberichte oder Feedback nutze bitte die <a href="https://github.com/dennis605/imkreis-support/issues">GitHub Issues</a>. Beschreibe möglichst dein Gerät, die App-Version und die Schritte, mit denen das Problem auftritt.</p>
-<h2>Datenschutz</h2>
-<p>ImKreis speichert Kontakte, Erinnerungen und Einstellungen ausschließlich lokal auf deinem Gerät. Es werden keine personenbezogenen Daten an externe Server übermittelt. Du kannst alle App-Daten jederzeit in den Einstellungen löschen.</p>
-<h2>App-Informationen</h2>
-<p>ImKreis ist eine produktive App für Menschen, die ihre Beziehungen bewusst und zuverlässig pflegen möchten.</p>
+<section class="hero" style="border-top:0;padding-top:54px">
+<div>
+<div class="eyebrow">Beziehungen bewusst pflegen</div>
+<h1>Menschen im Blick. Ohne Druck.</h1>
+<p class="lede">ImKreis hilft dir, den Kontakt zu den Menschen zu halten, die dir wichtig sind – mit persönlichen Rhythmen, klaren Erinnerungen und Raum für das, was ihr miteinander erlebt.</p>
+<div class="actions"><a class="button primary" href="#funktionen">ImKreis kennenlernen</a><a class="button secondary" href="#support">Support</a></div>
+</div>
+<div class="hero-card"><h2>Dein nächster Kontakt</h2><div class="today"><strong>Heute</strong><span>Wem möchtest du dich heute widmen?</span><span class="pill">ruhig & übersichtlich</span></div><div class="today"><strong>Dein eigener Rhythmus</strong><span>Wöchentlich · alle 2 Wochen · monatlich oder frei gewählt</span></div></div>
+</section>
+
+<section id="funktionen">
+<div class="section-intro"><div class="eyebrow">Ein persönlicher Überblick</div><h2>Alles, was du für gute Verbindungen brauchst.</h2><p>ImKreis bringt Struktur in deine Kontakte, ohne Beziehungen in eine Aufgabenliste zu verwandeln.</p></div>
+<div class="grid">
+<article class="card"><div class="icon">◌</div><h3>Persönliche Rhythmen</h3><p>Lege für jede Person fest, wie oft du dich melden möchtest – von wöchentlich bis jährlich.</p></article>
+<article class="card"><div class="icon">◷</div><h3>Heute, überfällig oder später</h3><p>Erkenne auf einen Blick, was gerade ansteht und was noch Zeit hat.</p></article>
+<article class="card"><div class="icon">♡</div><h3>Kontaktverlauf</h3><p>Halte Anrufe, Treffen und andere Momente fest, damit nichts Wichtiges verloren geht.</p></article>
+<article class="card"><div class="icon">✎</div><h3>Notizen, die bleiben</h3><p>Speichere Vorlieben, Themen, Geburtstage und kleine Dinge, an die du dich erinnern möchtest.</p></article>
+<article class="card"><div class="icon">↗</div><h3>Import & Export</h3><p>Verwalte deine Daten selbst und exportiere oder importiere sie als JSON.</p></article>
+<article class="card"><div class="icon">⌂</div><h3>Für deinen Alltag</h3><p>Eine ruhige, klare Oberfläche für iPhone und iPad – gemacht für den regelmäßigen Gebrauch.</p></article>
+</div>
+</section>
+
+<section>
+<div class="section-intro"><div class="eyebrow">So funktioniert es</div><h2>Ein kleiner Rhythmus für große Nähe.</h2></div>
+<div class="workflow"><div class="step"><b>01 · ANLEGEN</b><h3>Menschen hinzufügen</h3><p>Erstelle Kontakte mit Beziehung, Geburtstag, Notizen und dem letzten Kontakt.</p></div><div class="step"><b>02 · EINSTELLEN</b><h3>Deinen Rhythmus wählen</h3><p>Du entscheidest, wie oft du dich melden möchtest. ImKreis erinnert dich daran.</p></div><div class="step"><b>03 · DRANBLEIBEN</b><h3>Kontakt halten</h3><p>Markiere einen Kontakt als erreicht und behalte den Verlauf im Blick.</p></div></div>
+</section>
+
+<section id="datenschutz">
+<div class="privacy"><div class="eyebrow" style="color:#9bd4ae">Privat by design</div><h2>Deine Beziehungen gehören dir.</h2><p><strong>ImKreis speichert Kontakte, Erinnerungen und Einstellungen ausschließlich auf deinem Gerät.</strong> Es werden keine personenbezogenen Daten an externe Server übermittelt. Du kannst deine Daten jederzeit exportieren oder in den Einstellungen vollständig löschen.</p></div>
+</section>
+
+<section id="support">
+<div class="section-intro"><div class="eyebrow">Wir helfen weiter</div><h2>Fragen, Feedback oder ein Problem?</h2><p>Beschreibe möglichst dein Gerät, die App-Version und die Schritte, mit denen das Problem auftritt. So können wir dir schnell helfen.</p><div class="actions"><a class="button primary" href="https://github.com/dennis605/imkreis-support/issues">Support kontaktieren</a></div></div>
+</section>
 </main>
+<footer><span>© 2026 ImKreis</span><span><a href="#datenschutz">Datenschutz</a> · <a href="https://github.com/dennis605/imkreis-support">GitHub</a></span></footer>
+</div>
 </body>
 </html>
